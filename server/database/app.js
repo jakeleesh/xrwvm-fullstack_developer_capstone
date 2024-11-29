@@ -68,7 +68,7 @@ app.get('/fetchDealers/:state', async (req, res) => {
   const state = req.params.state;
   const dealersByState = [];
 
-  for (let dealer of dealerships_data) {
+  for (let dealer of dealerships_data.dealerships) {
     if (dealer.state === state) {
         dealersByState.push(dealer);
     }
@@ -80,10 +80,10 @@ app.get('/fetchDealers/:state', async (req, res) => {
 // Express route to fetch dealer by a particular id
 app.get('/fetchDealer/:id', async (req, res) => {
 //Write your code here
-  const id = req.params.id;
+  const id = parseInt(req.params.id, 10);
   const dealersById = [];
 
-  for (let dealer of dealerships_data) {
+  for (let dealer of dealerships_data.dealerships) {
     if (dealer.id === id) {
         dealersById.push(dealer);
     }
