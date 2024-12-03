@@ -15,9 +15,6 @@ A web application for customers to browse dealership branches by state and view 
   - [Installation](#installation)
 - [Usage](#usage)
 - [Development and Deployment](#development-and-deployment)
-- [Roadmap](#roadmap)
-- [Acknowledgements](#acknowledgements)
-- [Contact](#contact)
 
 ---
 
@@ -41,9 +38,7 @@ This project leverages a hybrid cloud strategy, combining private and public clo
   - Allow customers to add reviews.
 - **Continuous Integration/Deployment (CI/CD)**: Automated workflows with GitHub Actions.
 
----
-
-## Solution Architecture
+### Solution Architecture
 
 1. **Frontend**:
    - A React-based interface for user interaction.
@@ -125,7 +120,9 @@ This project leverages a hybrid cloud strategy, combining private and public clo
    docker-compose up
    ```
 
-   ## Usage
+---
+
+## Usage
 
 1. Navigate to `http://localhost:8000` to access the Django application.
 2. Use the following API endpoints:
