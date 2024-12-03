@@ -77,7 +77,7 @@ This project leverages a hybrid cloud strategy, combining private and public clo
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/dealership-review-website.git
+   git clone [https://github.com/your-username/dealership-review-website.git](https://github.com/jakeleesh/xrwvm-fullstack_developer_capstone.git)
    cd dealers
    ```
 
