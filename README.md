@@ -11,7 +11,6 @@ A web application for customers to browse dealership branches by state and view 
   - [Solution Architecture](#solution-architecture)
 - [Tech Stack](#tech-stack)
 - [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Usage](#usage)
 - [Development and Deployment](#development-and-deployment)
@@ -73,14 +72,6 @@ This project leverages a hybrid cloud strategy, combining private and public clo
 ---
 
 ## Getting Started
-
-### Prerequisites
-
-- Node.js v16+
-- Python 3.9+
-- Docker
-- Kubernetes
-- MongoDB (local or cloud-hosted)
 
 ### Installation
 
